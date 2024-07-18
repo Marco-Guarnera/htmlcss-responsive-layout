@@ -1,0 +1,41 @@
+:root{
+    --primary-color: #000;
+    --secondary-color: #FFF;
+}
+
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Generics */
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    font-family: "Nerko One", cursive;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Utilities */
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* Layout */
