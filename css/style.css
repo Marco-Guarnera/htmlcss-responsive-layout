@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #000;
+    --primary-color: #FF9614;
     --secondary-color: #FFF;
 }
 
@@ -20,7 +20,14 @@ body {
 }
 
 h1 {
+    color: var(--primary-color);
     font-family: "Nerko One", cursive;
+    font-size: 50px;
+    line-height: 50px;
+    padding: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #555;
+    text-transform: uppercase;
 }
 
 img {
