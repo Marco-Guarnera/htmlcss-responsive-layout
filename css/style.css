@@ -12,6 +12,7 @@
 
 /* Generics */
 a {
+    color: #000;
     text-decoration: none;
 }
 
@@ -35,8 +36,18 @@ img {
     max-width: 100%;
 }
 
+main {
+    background-color: #F6F5F3;
+    padding: 25px;
+}
+
 ul {
     list-style-type: none;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 15px;
 }
 
 /* Utilities */
@@ -46,3 +57,136 @@ ul {
 }
 
 /* Layout */
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row > div {
+    flex-basis: 100%;
+    background-color: #FFF;
+}
+
+
+
+iframe {
+    height: 400px;
+    width: 100%;
+}
+
+.recipe-name {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.recipe-name span {
+    font-size: 20px;
+}
+
+h2 {
+    color: #AAA;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #4E3969;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 800;
+}
+
+i {
+    color: var(--primary-color);
+}
+
+.btn {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.col-30{
+    padding: 25px;
+}
+
+.prova {
+    background-color: #F6F5F9;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.spazio {
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.fa-facebook {
+    color: #1A77F3;
+}
+.fa-twitter {
+    color: #009EFF;
+}
+.fa-instagram {
+    color: #E78EB0;
+}
+.fa-pinterest {
+    color: #E62424;
+}
+.fa-youtube {
+    color: #E62222;
+}
+
+.social ul {
+    justify-content: space-around;
+}
+
+.social li {
+    background-color: #FFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.fa-carrot {
+    color: #000;
+}
+.recipe-description img {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.recipe-info {
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 2px solid var(--primary-color);
+    width: 15%;
+    margin: 15px 0 25px 0;
+}
+
+p {
+    line-height: 25px;
+}
